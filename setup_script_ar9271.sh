@@ -8,7 +8,7 @@ LNXROUTER_URL="https://raw.githubusercontent.com/Y-Kim-64/linux-router-forked/ma
 sudo apt update && sudo apt upgrade -y
 
 # Install necessary packages
-sudo apt install -y iw hostapd haveged
+sudo apt install -y python3 iw hostapd haveged python3-pyudev dnsmasq
 
 # Download setup_router.py and lnxrouter from GitHub
 wget "$SETUP_ROUTER_PY_URL" -O setup_router.py
