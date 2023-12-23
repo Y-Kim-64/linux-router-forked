@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define GitHub URLs
-SETUP_ROUTER_PY_URL="https://raw.githubusercontent.com/Y-Kim-64/linux-router-forked/master/setup_router_ar9271.py"
+SETUP_ROUTER_PY_URL="https://raw.githubusercontent.com/Y-Kim-64/linux-router-forked/master/setup_router.py"
 LNXROUTER_URL="https://raw.githubusercontent.com/Y-Kim-64/linux-router-forked/master/lnxrouter"
 
 # Update and upgrade system packages
