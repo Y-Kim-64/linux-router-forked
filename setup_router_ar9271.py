@@ -30,6 +30,7 @@ def stop_lnxrouter():
     global lnxrouter_process
     if lnxrouter_process:
         print("Stopping WiFi AP.")
+        time.sleep(10)
         lnxrouter_process.terminate()
         lnxrouter_process = None
 
